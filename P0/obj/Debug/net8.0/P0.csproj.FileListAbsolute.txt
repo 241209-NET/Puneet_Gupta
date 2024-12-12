@@ -1,0 +1,15 @@
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/P0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/P0.AssemblyInfoInputs.cache
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/P0.AssemblyInfo.cs
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/P0.csproj.CoreCompileInputs.cache
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/P0.sourcelink.json
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/bin/Debug/net8.0/P0
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/bin/Debug/net8.0/P0.deps.json
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/bin/Debug/net8.0/P0.runtimeconfig.json
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/bin/Debug/net8.0/P0.dll
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/bin/Debug/net8.0/P0.pdb
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/P0.dll
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/refint/P0.dll
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/P0.pdb
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/P0.genruntimeconfig.cache
+/Users/puneetgupta/Downloads/Revature/Puneet_Gupta/P0/obj/Debug/net8.0/ref/P0.dll

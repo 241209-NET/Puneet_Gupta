@@ -1,6 +1,6 @@
 # Blog and Content Management System
 
-This is a Full Stack Web App made in .NET to help users create and persist themselves as authors anf their blog posts/content to a backend. 
+This is a Full Stack Web App made in .NET to help users create and persist themselves as authors and their blog posts to a backend. 
 
 ## Project Members
 - Puneet Gupta

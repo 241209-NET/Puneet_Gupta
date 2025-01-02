@@ -1,8 +1,6 @@
-using Project_1.api.Data;
 using Project_1.api.Model;
 using Project_1.api.Repository.Interface;
-using System.Collections.Generic;
-using System.Linq;
+using Project_1.api.Data;
 
 namespace Project_1.api.Repository
 {
@@ -22,17 +20,19 @@ namespace Project_1.api.Repository
 
         public BlogPost GetPostById(int id)
         {
-            return _context.BlogPosts.FirstOrDefault(p => p.Id == id);
+            return _context.BlogPosts.Find(id);
         }
 
         public void AddPost(BlogPost post)
         {
+            post.CreatedAt = DateTime.UtcNow;            
             _context.BlogPosts.Add(post);
             _context.SaveChanges();
         }
 
         public void UpdatePost(BlogPost post)
         {
+            post.UpdatedAt = DateTime.UtcNow;
             _context.BlogPosts.Update(post);
             _context.SaveChanges();
         }

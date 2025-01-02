@@ -1,5 +1,4 @@
 using Project_1.api.Model;
-using System.Collections.Generic;
 
 namespace Project_1.api.Repository.Interface
 {

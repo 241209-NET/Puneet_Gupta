@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 // Add DbContext for SQL Server with the connection string
 builder.Services.AddDbContext<SampleContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("PROJ1")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Dependency Injection for Repositories and Services
 builder.Services.AddScoped<IBlogPostRepository, BlogPostRepository>();
@@ -25,10 +25,12 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
+app.UseAuthorization();
 app.MapControllers();
 app.Run();

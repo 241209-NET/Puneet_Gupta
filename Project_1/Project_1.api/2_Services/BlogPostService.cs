@@ -1,7 +1,6 @@
 using Project_1.api.Model;
 using Project_1.api.Repository.Interface;
 using Project_1.api.Services.Interface;
-using System.Collections.Generic;
 
 namespace Project_1.api.Services
 {
